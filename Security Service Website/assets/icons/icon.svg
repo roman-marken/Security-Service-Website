@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Fortress Security">
+  <rect width="512" height="512" rx="96" fill="#07111f"/>
+  <path d="M256 58l158 58v112c0 105-61 184-158 226-97-42-158-121-158-226V116l158-58z" fill="#35d0ba"/>
+  <path d="M256 108l103 38v82c0 72-39 126-103 160-64-34-103-88-103-160v-82l103-38z" fill="#07111f"/>
+  <path d="M205 253l33 33 76-91 34 29-106 126-72-72 35-25z" fill="#ffb25b"/>
+</svg>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Услуги Fortress Security: охрана, видеонаблюдение, сигнализация, реагирование и аудит безопасности." />
+    <meta name="theme-color" content="#08111f" />
+    <title>Услуги - Fortress Security</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Fortress Security"><span class="brand-mark" aria-hidden="true">FS</span><span><strong>Fortress</strong><small>Security Service</small></span></a>
+        <nav class="nav" data-nav aria-label="Основная навигация">
+          <a href="services.html">Услуги</a><a href="solutions.html">Решения</a><a href="pricing.html">Тарифы</a><a href="cases.html">Кейсы</a><a href="contact.html">Контакты</a><a href="portal.html">Портал</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button" type="button" data-theme-toggle aria-label="Сменить тему"><span class="icon-sun" aria-hidden="true"></span></button>
+          <a class="phone-link" href="tel:+380441234567">+38 044 123 45 67</a>
+          <button class="button button-primary" type="button" data-open-modal="audit">Аудит</button>
+          <button class="icon-button menu-button" type="button" data-menu-toggle aria-label="Открыть меню"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero service-hero">
+        <div class="container page-hero-grid">
+          <div>
+            <p class="eyebrow">Services</p>
+            <h1>Услуги безопасности под реальные риски объекта</h1>
+            <p>Комбинируем людей, технику, регламенты и аналитику, чтобы безопасность работала каждый день, а не только на бумаге.</p>
+          </div>
+          <div class="hero-panel">
+            <div><strong>24/7</strong><span>мониторинг тревог</span></div>
+            <div><strong>4 SLA</strong><span>уровня реагирования</span></div>
+            <div><strong>1 день</strong><span>на стартовый аудит</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container service-detail-grid">
+          <article class="service-card"><span class="service-icon shield" aria-hidden="true"></span><h3>Физическая охрана</h3><p>Посты, патрули, КПП, пропускной режим, контроль подрядчиков и посетителей.</p><button type="button" data-service="Физическая охрана">Заказать</button></article>
+          <article class="service-card"><span class="service-icon camera" aria-hidden="true"></span><h3>Видеонаблюдение</h3><p>IP-камеры, аналитика, архив, удаленный доступ и контроль слепых зон.</p><button type="button" data-service="Видеонаблюдение">Заказать</button></article>
+          <article class="service-card"><span class="service-icon alarm" aria-hidden="true"></span><h3>Сигнализация</h3><p>Тревожные кнопки, датчики периметра, пожарные сценарии и эскалация.</p><button type="button" data-service="Сигнализация">Заказать</button></article>
+          <article class="service-card"><span class="service-icon response" aria-hidden="true"></span><h3>Реагирование</h3><p>Мобильные группы, маршрутные карты, связь с ответственными и отчетность.</p><button type="button" data-service="Быстрое реагирование">Заказать</button></article>
+          <article class="service-card"><span class="service-icon shield" aria-hidden="true"></span><h3>Аудит безопасности</h3><p>Проверка периметра, регламентов, камер, доступа, персонала и критичных процессов.</p><button type="button" data-service="Аудит безопасности">Заказать</button></article>
+          <article class="service-card"><span class="service-icon camera" aria-hidden="true"></span><h3>Security Operations</h3><p>Единый центр мониторинга, журнал инцидентов, KPI и ежедневные сводки.</p><button type="button" data-service="Security Operations">Заказать</button></article>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container calculator-layout">
+          <div>
+            <p class="eyebrow">Estimator</p>
+            <h2>Расширенный калькулятор</h2>
+            <p>Добавьте контроль доступа и патрули, чтобы увидеть более честный ориентир бюджета.</p>
+          </div>
+          <form class="calculator" data-calculator>
+            <label>Тип объекта<select name="objectType"><option value="office">Офис</option><option value="warehouse">Склад</option><option value="residential">Жилой комплекс</option><option value="retail">Ритейл</option></select></label>
+            <label>Площадь, м2<input type="number" name="area" min="50" max="50000" value="1200" /></label>
+            <label>Посты охраны<input type="number" name="guards" min="0" max="20" value="2" /></label>
+            <label class="check-row"><input type="checkbox" name="cameras" checked />Видеонаблюдение</label>
+            <label class="check-row"><input type="checkbox" name="alarm" checked />Сигнализация</label>
+            <label class="check-row"><input type="checkbox" name="access" />Контроль доступа</label>
+            <label class="check-row"><input type="checkbox" name="patrol" />Патрульные обходы</label>
+            <div class="calculator-result"><span>Ориентир в месяц</span><strong data-calc-price>0 грн</strong><small data-calc-note>Расчет обновляется автоматически.</small></div>
+            <button class="button button-primary" type="button" data-save-estimate>Сохранить расчет</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow">Risk Check</p>
+            <h2>Мини-чек-лист зрелости безопасности</h2>
+            <p>Отметьте, что уже внедрено. Сайт сразу покажет уровень готовности объекта.</p>
+          </div>
+          <div class="tool-panel">
+            <form class="checklist" data-risk-checklist>
+              <label class="check-row"><input type="checkbox" checked />Есть журнал посетителей</label>
+              <label class="check-row"><input type="checkbox" />Камеры закрывают входы и периметр</label>
+              <label class="check-row"><input type="checkbox" />Есть регламент тревоги</label>
+              <label class="check-row"><input type="checkbox" />Проводятся обходы по графику</label>
+              <label class="check-row"><input type="checkbox" />Сотрудники знают ответственных</label>
+              <label class="check-row"><input type="checkbox" />Доступы пересматриваются ежемесячно</label>
+            </form>
+            <div class="score-card"><strong data-risk-score>0%</strong><span data-risk-text></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">FS</span><span><strong>Fortress</strong><small>Security Service</small></span></a><p>Профессиональная защита людей, имущества и процессов.</p></div><div><strong>Разделы</strong><p><a href="solutions.html">Решения</a><br /><a href="pricing.html">Тарифы</a><br /><a href="portal.html">Портал</a></p></div><div><strong>Дежурная линия</strong><p><a href="tel:+380441234567">+38 044 123 45 67</a><br /><a href="mailto:hello@fortress-security.example">hello@fortress-security.example</a></p></div></div></footer>
+    <button class="chat-fab" type="button" data-chat-open aria-label="Открыть чат">?</button>
+    <section class="chat-widget" data-chat hidden aria-label="Чат-помощник"><header><strong>Security Assistant</strong><button type="button" data-chat-close aria-label="Закрыть чат">x</button></header><div class="chat-log" data-chat-log></div><form data-chat-form><input name="message" autocomplete="off" placeholder="Напишите вопрос..." aria-label="Сообщение" /><button type="submit">Отправить</button></form></section>
+    <dialog class="modal" data-modal><form method="dialog"><button class="modal-close" value="close" aria-label="Закрыть">x</button></form><div data-modal-content></div></dialog>
+    <div class="toast" data-toast role="status" aria-live="polite"></div><button class="install-prompt" type="button" data-install hidden>Установить приложение</button><button class="back-to-top" type="button" data-back-top aria-label="Наверх">↑</button>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

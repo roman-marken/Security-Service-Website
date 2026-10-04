@@ -1,0 +1,17 @@
+{
+  "name": "Fortress Security Service",
+  "short_name": "Fortress",
+  "description": "Комплексные услуги безопасности, мониторинга и реагирования.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#08111f",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
